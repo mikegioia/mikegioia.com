@@ -1,0 +1,142 @@
+<!doctype html>
+<head>
+    <title>Mike Gioia</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="Mike Gioia">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://fonts.googleapis.com/css?family=Patrick+Hand' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+    <style type="text/css">
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            background-color: #F7DDAA;
+            border-bottom: 2px solid #E4B85F;
+            text-decoration: none;
+            padding: 0px 5px;
+            color: #6B4E14;
+        }
+
+        #content {
+            width: 40%;
+            position: absolute;
+            top: 5%;
+            right: 10%;
+            font-family: 'PT Sans', sans-serif;
+            z-index: 3;
+        }
+
+        #name {
+            font-size: 8em;
+            font-family: 'Just Another Hand', 'Patrick Hand', cursive;
+        }
+
+        #about {
+            margin-top: 20px;
+            font-size: 1.5em;
+            line-height: 150%;
+        }
+        
+        #social {
+            padding-top: 30px;
+        }
+        
+        #social a {
+            border: none;
+            background: none;
+            padding: 0;
+        }
+
+        #picture {
+            position: absolute;
+            bottom: 20px;
+            width: 36%;
+            left: 5%;
+            z-index: 2;
+        }
+
+        #floor {
+            position: absolute;
+            bottom: 0;
+            height: 16%;
+            border-top: 0.20em solid #333;
+            width: 100%;
+            z-index: 1;
+            background-color: #E0B29B;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="content">
+        <div id="name">
+            Mike Gioia
+        </div>
+
+        <div id="about">
+            <p>
+                I'm a <a href="https://github.com/mikegioia">web developer</a> by trade, 
+                an aspiring <a href="https://soundcloud.com/mikegioia">musician</a>, 
+                and an amateur <a href="http://myapokalips.com">cartoonist</a>.
+            </p>
+            <p>
+                I'm in love with <a href="http://playlistlove.com">music discovery</a>, 
+                and co-founded an <a href="https://teachboost.com">education company</a>.
+            </p>
+            <p id="social">
+                <a href="https://facebook.com/mikegioia">
+                    <img src="img/facebook.png" alt="Facebook" height="32" width="32" />
+                </a>
+                <a href="https://twitter.com/mikegioia">
+                    <img src="img/twitter.png" alt="Twitter" height="32" width="32" />
+                </a>
+                <a href="https://plus.google.com/u/0/105361543065893000561/about?hl=en">
+                    <img src="img/google.png" alt="Google+" height="32" width="32" />
+                </a>
+                <a href="https://www.last.fm/user/mikegioia">
+                    <img src="img/lastfm.png" alt="Last.fm" height="32" width="32" />
+                </a>
+                <a href="https://mikegioia.com/Michael Gioia mikegioia@gmail.com (0x4B50820B) pub.asc">
+                    <img src="img/email.png" alt="Email" height="32" width="32" />
+                </a>
+                <a href="https://www.linkedin.com/in/mikegioia">
+                    <img src="img/linkedin.png" alt="LinkedIn" height="32" width="32" />
+                </a>
+            </p>
+        </div>
+    </div>
+    
+    <img src="img/homepage.png" id="picture" alt="This needed to be drawn" title="This needed to be drawn" border="0" />
+    
+    <div id="floor"></div>
+    
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-38698666-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+</body>
+</html>
